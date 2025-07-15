@@ -1,0 +1,565 @@
+/* Lado de Redes Sociales */
+#body-redes-sociales {
+    font-family: "Georgia", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4fff0; 
+    color: #2d2d2d;
+    text-align: center;
+}
+
+#redes-sociales-header {
+    background-color: #6d8299; 
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 10px;
+    border-bottom: 6px dotted #a8d5ba; 
+}
+
+.redes-sociales-title {
+    margin: 0;
+    font-size: 2.6em;
+    padding: 10px;
+    text-shadow: 0 0 4px #a8d5ba;
+}
+
+.redes-sociales-img {
+    display: block;
+    margin: 15px auto;
+    border: 5px double #a8d5ba;
+    border-radius: 15px;
+}
+
+#redes-sociales-links {
+    text-align: center;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.redes-sociales-nav-link {
+    color: #6d8299;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 10px 20px;
+    border: 3px wavy #a8d5ba;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+}
+
+.redes-sociales-nav-link:hover {
+    background-color: #a8d5ba;
+    color: #ffffff;
+    border-style: solid;
+}
+
+#redes-sociales-intro, #redes-sociales-video-section {
+    margin: 25px 20px;
+    padding: 25px;
+    background-color: #ffffff;
+    border: 3px solid #6d8299;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.redes-sociales-section-title {
+    color: #6d8299;
+    font-size: 1.9em;
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 12px;
+    border-bottom: 4px double #a8d5ba;
+    text-shadow: 0 0 2px #a8d5ba;
+}
+
+.redes-sociales-info {
+    margin: 20px 0;
+}
+
+.redes-sociales-text {
+    line-height: 1.9;
+    font-size: 1.2em;
+    margin: 15px 0;
+}
+
+.redes-sociales-video {
+    display: block;
+    margin: 25px auto;
+    border: 4px dashed #a8d5ba;
+    border-radius: 10px;
+}
+
+#redes-sociales-footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #6d8299;
+    color: #ffffff;
+    margin-top: 25px;
+}
+
+.redes-sociales-footer-text {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+
+/* Lado de Facebook */
+#body-facebook {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ad1051; 
+    color: #1e272e;
+}
+
+#facebook-header {
+    background-color: #2f55a4;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 10px;
+    border-bottom: 8px solid #f28c38; 
+}
+
+.facebook-title {
+    margin: 0;
+    font-size: 2.4em;
+    padding: 10px;
+    text-shadow: 0 0 6px #f28c38;
+}
+
+.facebook-img {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #f28c38;
+    border-radius: 5px;
+}
+
+#facebook-links {
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.facebook-nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 18px;
+    background-color: #2f55a4;
+    border: 2px solid #f28c38;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.facebook-nav-link:hover {
+    background-color: #f28c38;
+    color: #2f55a4;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.4);
+}
+
+#facebook-intro, #facebook-video-section {
+    margin: 20px 15px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #2f55a4;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.facebook-section-title {
+    color: #2f55a4;
+    font-size: 1.7em;
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f28c38;
+    text-shadow: 0 0 3px #f28c38;
+     text-shadow: 0 0 6px #f28c38;
+}
+
+.facebook-info {
+    margin: 15px 0;
+}
+
+.facebook-text {
+    line-height: 1.7;
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.facebook-video {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #f28c38;
+    border-radius: 5px;
+}
+
+
+/* Lado de Instagram */
+#body-instagram {
+    font-family: "Trebuchet MS", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9ecec; 
+    color: #2d3436;
+}
+
+#instagram-header {
+    background-color: #833ab4; 
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 10px;
+    border-bottom: 7px dashed #48dbfb; 
+}
+
+.instagram-title {
+    margin: 0;
+    font-size: 2.5em;
+    padding: 10px;
+    text-shadow: 0 0 5px #48dbfb;
+}
+
+.instagram-img {
+    display: block;
+    margin: 20px auto;
+    border: 4px groove #48dbfb;
+    border-radius: 12px;
+}
+
+#instagram-links {
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.instagram-nav-link {
+    color: #833ab4;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 8px 20px;
+    border: 3px solid #48dbfb;
+    border-radius: 50px; 
+    background-color: #ffffff;
+}
+
+.instagram-nav-link:hover {
+    background-color: #48dbfb;
+    color: #833ab4;
+    border-radius: 30px;
+}
+
+#instagram-intro, #instagram-video-section {
+    margin: 20px 15px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 3px groove #833ab4;
+    border-radius: 15px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.15);
+}
+
+.instagram-section-title {
+    color: #833ab4;
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 3px dashed #48dbfb;
+    text-shadow: 0 0 3px #48dbfb;
+}
+
+.instagram-info {
+    margin: 15px 0;
+}
+
+.instagram-text {
+    line-height: 1.8;
+    font-size: 1.15em;
+    margin: 12px 0;
+}
+
+.instagram-video {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #48dbfb;
+    border-radius: 12px;
+}
+
+/* Lado de WhatsApp */
+#body-whatsapp {
+    font-family: "Verdana", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8f5e9; 
+    color: #2d3436;
+}
+
+#whatsapp-header {
+    background-color: #1b5e20; 
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 10px;
+    border-bottom: 5px solid #b0bec5; 
+}
+
+.whatsapp-title {
+    margin: 0;
+    font-size: 2.4em;
+    padding: 10px;
+    text-shadow: 0 0 4px #b0bec5;
+}
+
+.whatsapp-img {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #b0bec5;
+    border-radius: 0; 
+}
+
+#whatsapp-links {
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.whatsapp-nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    background-color: #1b5e20;
+    border: 4px solid #b0bec5;
+    border-radius: 0; 
+}
+
+.whatsapp-nav-link:hover {
+    background-color: #b0bec5;
+    color: #1b5e20;
+    border: 4px solid #1b5e20;
+}
+
+#whatsapp-intro, #whatsapp-video-section {
+    margin: 20px 15px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #1b5e20;
+    border-radius: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.whatsapp-section-title {
+    color: #1b5e20;
+    font-size: 1.7em;
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #b0bec5;
+    text-shadow: 0 0 2px #b0bec5;
+}
+
+.whatsapp-info {
+    margin: 15px 0;
+}
+
+.whatsapp-text {
+    line-height: 1.7;
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.whatsapp-video {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #b0bec5;
+    border-radius: 0;
+}
+
+
+/* Lado de TikTok */
+#body-tiktok {
+    font-family: "Courier New", monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #2d2d2d; 
+    color: #ffffff;
+}
+
+#tiktok-header {
+    background-color: #000000; 
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 10px;
+    border-bottom: 6px solid #ff2e95; 
+}
+
+.tiktok-title {
+    margin: 0;
+    font-size: 2.5em;
+    padding: 10px;
+    text-shadow: 0 0 8px #ff2e95;
+}
+
+.tiktok-img {
+    display: block;
+    margin: 20px auto;
+    border: 4px solid #ff2e95;
+    border-radius: 10px;
+}
+
+#tiktok-links {
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.tiktok-nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    background-color: #000000;
+    border: 2px solid #ff2e95;
+    clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%); 
+}
+
+.tiktok-nav-link:hover {
+    background-color: #ff2e95;
+    color: #000000;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+#tiktok-intro, #tiktok-video-section {
+    margin: 20px 15px;
+    padding: 20px;
+    background-color: #3c3c3c;
+    border: 2px solid #ff2e95;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.tiktok-section-title {
+    color: #ff2e95;
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #ffffff;
+    text-shadow: 0 0 4px #ff2e95;
+}
+
+.tiktok-info {
+    margin: 15px 0;
+}
+
+.tiktok-text {
+    line-height: 1.8;
+    font-size: 1.15em;
+    margin: 12px 0;
+}
+
+.tiktok-video {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #ff2e95;
+    border-radius: 10px;
+}
+
+
+/* Lado de Twitter */
+#body-twitter {
+    font-family: "Courier New", monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #2d2d2d;
+    color: #ffffff;
+}
+
+#twitter-header {
+    background-color: #1da1f2; 
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 10px;
+    border-bottom: 6px solid #ffeb3b; 
+}
+
+.twitter-title {
+    margin: 0;
+    font-size: 2.5em;
+    padding: 10px;
+    text-shadow: 0 0 8px #ffeb3b; 
+}
+
+.twitter-img {
+    display: block;
+    margin: 20px auto;
+    border: 4px solid #ffeb3b;
+    border-radius: 10px;
+}
+
+#twitter-links {
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.twitter-nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    background-color: #1da1f2;
+    border: 2px solid #ffeb3b;
+    clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%); 
+}
+
+.twitter-nav-link:hover {
+    background-color: #ffeb3b;
+    color: #1da1f2;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); 
+}
+
+#twitter-intro, #twitter-video-section {
+    margin: 20px 15px;
+    padding: 20px;
+    background-color: #3c3c3c; 
+    border: 2px solid #ffeb3b;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.twitter-section-title {
+    color: #ffeb3b;
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #1da1f2;
+    text-shadow: 0 0 4px #ffeb3b; 
+}
+
+.twitter-info {
+    margin: 15px 0;
+}
+
+.twitter-text {
+    line-height: 1.8;
+    font-size: 1.15em;
+    margin: 12px 0;
+}
+
+.twitter-video {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #ffeb3b;
+    border-radius: 10px;
+}
